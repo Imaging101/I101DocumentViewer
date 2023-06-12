@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>I101DocumentViewer</name>
+    </assembly>
+    <members>
+        <member name="F:I101DocumentViewer.frmLoadingGif.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:I101DocumentViewer.frmLoadingGif.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:I101DocumentViewer.frmLoadingGif.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.#ctor(System.String)">
+            <summary>
+            Initialize an INI file
+            Load it if it exists
+            </summary>
+            <param name="file">Full path where the INI file has to be read from or written to</param>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.Load">
+            <summary>
+            Load the INI file content
+            </summary>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.GetValue(System.String)">
+            <summary>
+            Get a parameter value at the root level
+            </summary>
+            <param name="key">parameter key</param>
+            <returns></returns>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.GetValue(System.String,System.String,System.String)">
+            <summary>
+            Returns a parameter value in the section, with a default value if not found
+            </summary>
+            <param name="key">parameter key</param>
+            <param name="section">section</param>
+            <param name="default">default value</param>
+            <returns></returns>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.Save">
+            <summary>
+            Save the INI file
+            </summary>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.WriteValue(System.String,System.String)">
+            <summary>
+            Write a parameter value at the root level
+            </summary>
+            <param name="key">parameter key</param>
+            <param name="value">parameter value</param>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.WriteValue(System.String,System.String,System.String)">
+            <summary>
+            Write a parameter value in a section
+            </summary>
+            <param name="key">parameter key</param>
+            <param name="section">section</param>
+            <param name="value">parameter value</param>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.GetKeys(System.String)">
+            <summary>
+            Get all the keys names in a section
+            </summary>
+            <param name="section">section</param>
+            <returns></returns>
+        </member>
+        <member name="M:I101DocumentViewer.IniFileHandler.GetSections">
+            <summary>
+            Get all the section names of the INI file
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:My.Resources.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.Arrange">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.I101Logo201204_250x60">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.Launch">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.LoadingAnimatedGif">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.LoadingAnimatedGif2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.LoadingAnimatedGif3">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.LoadingAnimatedGif4">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.LoadingAnimatedGif5">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:My.Resources.Resources.search_result">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>
